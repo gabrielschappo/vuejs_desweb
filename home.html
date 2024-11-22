@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue - Páginas Dinâmicas</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3"></script>
+    <style>
+        nav {
+            margin-bottom: 20px;
+        }
+
+        button {
+            margin-right: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        section {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Div principal onde Vue irá montar a aplicação -->
+    <div id="app"></div>
+
+    <!-- Carrega os templates externos -->
+    <script src="js/about.js"></script>
+    <script src="js/contact.js"></script>
+
+    <!-- Carrega o arquivo app.js que contém a lógica Vue, ele deve ser o ultimo a ser carregado! -->
+    <script src="js/home.js"></script>
+</body>
+
+</html>
