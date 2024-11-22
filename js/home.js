@@ -24,7 +24,7 @@ const home = Vue.createApp({
           sobre: PaginaSobre, // Carrega o componente "Sobre"
           contato: PaginaContato // Carrega o componente "Contato"
         },
-        outraVariavelExemplo: "TITULO FIXO POR VARIAVEL"
+        outraVariavelExemplo: "TITULO PRINCIPAL DAS TELAS"
       };
     },
     methods: {
@@ -40,7 +40,7 @@ const home = Vue.createApp({
           <button @click="trocaPagina('sobre')">Sobre Nós</button>
           <button @click="trocaPagina('contato')">Contato</button>
         </nav>
-        <h4> {{ outraVariavelExemplo }}
+        <h4> {{ outraVariavelExemplo }} 
   
         <section>
           <!-- Carrega o componente dinamicamente -->
