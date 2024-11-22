@@ -36,18 +36,23 @@ const home = Vue.createApp({
       <div>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <ul style="margin-left: 350px;" class="nav nav-underline">
+              <button @click="trocaPagina('home')" class='btn'>
                 <li style="margin-inline: 20px ;" class="nav-item">
-                    <a @click="trocaPagina('home')" style="color:black; font-size: larger;" class="nav-link" href=''>Home</a>
+                    <a style="color:black; font-size: larger;" class="nav-link">Home</a>
                 </li>
+              </button>
+              <button @click="trocaPagina('sobre')" class='btn'>
                 <li style="margin-inline: 20px ;" class="nav-item">
-                    <a @click="trocaPagina('sobre')" style="color:black; font-size: larger;" class="nav-link" href=''>Sobre</a>
+                    <a style="color:black; font-size: larger;" class="nav-link">Sobre</a>
                 </li>
+              </button>
+              <button @click="trocaPagina('contato')" class='btn'>
                 <li style="margin-inline: 20px ;" class="nav-item">
-                    <a @click="trocaPagina('contato')" style="color:black; font-size: larger;" class="nav-link" href=''>Contato</a>
+                    <a style="color:black; font-size: larger;" class="nav-link">Contato</a>
                 </li>
             </ul>
         </nav>
-        <h4> {{ outraVariavelExemplo }} 
+        <h4> {{ outraVariavelExemplo }} </h4>
   
         <section>
           <!-- Carrega o componente dinamicamente -->
