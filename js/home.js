@@ -35,10 +35,17 @@ const home = Vue.createApp({
     template: `
       <div>
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <!-- Navegação entre as páginas -->
-          <button @click="trocaPagina('home')">Página Inicial</button>
-          <button @click="trocaPagina('sobre')">Sobre Nós</button>
-          <button @click="trocaPagina('contato')">Contato</button>
+            <ul style="margin-left: 350px;" class="nav nav-underline">
+                <li style="margin-inline: 20px ;" class="nav-item">
+                    <a @click="trocaPagina('home')" style="color:black; font-size: larger;" class="nav-link" href=''>Home</a>
+                </li>
+                <li style="margin-inline: 20px ;" class="nav-item">
+                    <a @click="trocaPagina('sobre')" style="color:black; font-size: larger;" class="nav-link" href=''>Sobre</a>
+                </li>
+                <li style="margin-inline: 20px ;" class="nav-item">
+                    <a @click="trocaPagina('contato')" style="color:black; font-size: larger;" class="nav-link" href=''>Contato</a>
+                </li>
+            </ul>
         </nav>
         <h4> {{ outraVariavelExemplo }}
   
