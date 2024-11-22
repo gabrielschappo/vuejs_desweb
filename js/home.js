@@ -34,7 +34,7 @@ const home = Vue.createApp({
     },
     template: `
       <div>
-        <nav>
+        <nav class="navbar navbar-expand-lg navbar-dark">
           <!-- Navegação entre as páginas -->
           <button @click="trocaPagina('home')">Página Inicial</button>
           <button @click="trocaPagina('sobre')">Sobre Nós</button>
