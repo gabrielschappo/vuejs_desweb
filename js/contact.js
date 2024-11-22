@@ -1,6 +1,6 @@
 const PaginaContato = {
     template: `
-      <div>
+      <div class='container-sm text-center'>
         <h1>Contato</h1>
         <p>Entre em contato conosco através do formulário abaixo:</p>
         <form>
