@@ -2,15 +2,24 @@
 
 const PaginaHome = {
     template: `
-    <div>
-      <h1>Bem-vindo à Página Inicial</h1>
-      <p>Selecione uma das opções acima para ver mais informações.</p>
-      <h4> {{ variavelExemplo }} </h4>
+    <div class= "row mt-5" style ="background-color: lightgray;" >
+        <div class="col-4">
+        </div>
+        <div class="col-4">
+             <div>
+              <p style="font-size: 90px">Bem-vindo à Página Inicial</p>
+              <p>Selecione uma das opções acima para ver mais informações.</p>
+              <h4> {{ variavelExemplo }} </h4>
+            </div>
+        </div>
+        <div class="col-4">
+        </div>
+    
     </div>
   `,
   data() {
     return {
-        variavelExemplo : "Texto vindo de variael no componente"
+        variavelExemplo : "Texto vindo de variael no componente "
     }
   }
 };
@@ -24,7 +33,7 @@ const home = Vue.createApp({
           sobre: PaginaSobre, // Carrega o componente "Sobre"
           contato: PaginaContato // Carrega o componente "Contato"
         },
-        outraVariavelExemplo: "TITULO PRINCIPAL DAS TELAS"
+        outraVariavelExemplo: ""
       };
     },
     methods: {
@@ -33,7 +42,7 @@ const home = Vue.createApp({
         }
     },
     template: `
-      <div>
+      <div style="background-color: #003366;">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <ul style="margin-left: 350px;" class="nav nav-underline">
               <button @click="trocaPagina('home')" class='btn'>
@@ -54,8 +63,7 @@ const home = Vue.createApp({
         </nav>
         <h4> {{ outraVariavelExemplo }} </h4>
   
-        <section>
-          <!-- Carrega o componente dinamicamente -->
+        <section style="background-color: lightgray;">
           <component :is="componentes[paginaAtual]"></component>
         </section>
       </div>    `
