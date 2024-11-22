@@ -43,21 +43,21 @@ const home = Vue.createApp({
     },
     template: `
       <div style="background-color: #003366;">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <ul style="margin-left: 350px;" class="nav nav-underline">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="justify-content: center;">
+            <ul class="nav nav-underline">
               <button @click="trocaPagina('home')" class='btn'>
                 <li style="margin-inline: 20px ;" class="nav-item">
-                    <a style="color:black; font-size: larger;" class="nav-link">Home</a>
+                    <a style="color:white; font-size: larger;" class="nav-link">Home</a>
                 </li>
               </button>
               <button @click="trocaPagina('sobre')" class='btn'>
                 <li style="margin-inline: 20px ;" class="nav-item">
-                    <a style="color:black; font-size: larger;" class="nav-link">Sobre</a>
+                    <a style="color:white; font-size: larger;" class="nav-link">Sobre</a>
                 </li>
               </button>
               <button @click="trocaPagina('contato')" class='btn'>
                 <li style="margin-inline: 20px ;" class="nav-item">
-                    <a style="color:black; font-size: larger;" class="nav-link">Contato</a>
+                    <a style="color:white; font-size: larger;" class="nav-link">Contato</a>
                 </li>
             </ul>
         </nav>
