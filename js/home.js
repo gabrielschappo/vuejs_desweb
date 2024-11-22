@@ -7,7 +7,7 @@ const PaginaHome = {
         </div>
         <div class="col-4">
              <div>
-              <p class="me-5" style="font-size: 100px;font-family: 'Playfair Display', sans-serif; text-align: center;">Experiência Náutica de Luxo e Conforto</p>
+              <p class="me-3" style="font-size: 100px;font-family: 'Playfair Display', sans-serif; text-align: center;">Experiência Náutica de Luxo e Conforto</p>
               <p>Selecione uma das opções acima para ver mais informações.</p>
               <h4> {{ variavelExemplo }} </h4>
             </div>
@@ -47,17 +47,17 @@ const home = Vue.createApp({
             <ul class="nav nav-underline">
               <button @click="trocaPagina('home')" class='btn'>
                 <li style="margin-inline: 20px ;" class="nav-item">
-                    <a style="color:white; font-size: larger;" class="nav-link">Home</a>
+                    <a style="color:white; font-size: 25px;" class="nav-link">Home</a>
                 </li>
               </button>
               <button @click="trocaPagina('sobre')" class='btn'>
                 <li style="margin-inline: 20px ;" class="nav-item">
-                    <a style="color:white; font-size: larger;" class="nav-link">Sobre</a>
+                    <a style="color:white; font-size: 25px;" class="nav-link">Sobre</a>
                 </li>
               </button>
               <button @click="trocaPagina('contato')" class='btn'>
                 <li style="margin-inline: 20px ;" class="nav-item">
-                    <a style="color:white; font-size: larger;" class="nav-link">Contato</a>
+                    <a style="color:white; font-size: 25px;" class="nav-link">Contato</a>
                 </li>
             </ul>
         </nav>
