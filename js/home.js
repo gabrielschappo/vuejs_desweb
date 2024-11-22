@@ -7,7 +7,7 @@ const PaginaHome = {
         </div>
         <div class="col-4">
              <div>
-              <p style="font-size: 90px">Bem-vindo à Página Inicial</p>
+              <p class="me-5" style="font-size: 100px;font-family: 'Playfair Display', sans-serif; text-align: center;">Experiência Náutica de Luxo e Conforto</p>
               <p>Selecione uma das opções acima para ver mais informações.</p>
               <h4> {{ variavelExemplo }} </h4>
             </div>
