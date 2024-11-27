@@ -1,6 +1,6 @@
 const PaginaContato = {
     template: `
-      <div class='container-sm' style='max-width: 700px;color: white'>
+      <div class='container-sm' style='max-width: 700px;color: white;padding: 40px'>
           <h3>Entre em contato para garantir seu aluguel:</h3>
           <div class="mb-3 mt-4">
             <label for="InputName" class="form-label">Nome completo</label>
