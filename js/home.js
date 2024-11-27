@@ -14,6 +14,37 @@ const PaginaHome = {
         </div>
         <div class="col-2">
         </div>
+        <section class="header-section">
+    <h1>Desfrute das belezas naturais do litoral sul de Pernambuco <br>
+      fazendo o melhor passeio de lancha exclusivo com sua família, amigos ou grupo corporativo.</h1>
+  </section>
+
+  <!-- Card com informações da lancha -->
+  <section class="boat-section container">
+    <div class="row align-items-center">
+      <!-- Imagem -->
+      <div class="col-md-6">
+        <div class="boat-card">
+          <img src="https://via.placeholder.com/500x300" alt="Iate Capitão Ferrat">
+          <a href="#" class="btn btn-light position-absolute" style="bottom: 20px; left: 20px;">
+            <i class="bi bi-play-circle"></i>
+          </a>
+        </div>
+      </div>
+      <!-- Informações -->
+      <div class="col-md-6">
+        <div class="boat-card position-relative p-4">
+          <div class="boat-info">
+            <h2>Iate Capitão Ferrat</h2>
+            <p><strong>Marca:</strong> Azimut 56 Full</p>
+            <p><strong>Tamanho:</strong> 56 pés</p>
+            <p><strong>Capacidade:</strong> 16 pessoas</p>
+          </div>
+          <span class="boat-number">1</span>
+        </div>
+      </div>
+    </div>
+  </section>
     
     </div>
   `,
@@ -63,7 +94,7 @@ const home = Vue.createApp({
         </nav>
 
   
-        <section style="background-color: #0055A5;">
+        <section style="background-color: #0F2E45;">
           <component :is="componentes[paginaAtual]"></component>
         </section>
       </div>    `
