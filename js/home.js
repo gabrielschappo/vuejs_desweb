@@ -61,7 +61,7 @@ const home = Vue.createApp({
                 </li>
             </ul>
         </nav>
-        <h4> {{ outraVariavelExemplo }} </h4>
+
   
         <section style="background-color: #0055A5;">
           <component :is="componentes[paginaAtual]"></component>
