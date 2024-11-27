@@ -1,17 +1,23 @@
 const PaginaContato = {
     template: `
-      <div class='container-sm text-center'>
-        <h1>Contato</h1>
-        <p>Entre em contato conosco através do formulário abaixo:</p>
-        <form>
-          <label for="nome">Seu Nome:</label>
-          <input type="text" id="nome" name="nome"><br><br>
-  
-          <label for="mensagem">Mensagem:</label><br>
-          <textarea id="mensagem" name="mensagem"></textarea><br><br>
-  
-          <button type="button" @click="cliquei">Enviar</button>
-        </form>
+      <div class='container-sm'>
+      <h3>Entre em contato para garantir seu aluguel:</h3>
+          <div class="mb-3 mt-4">
+            <label for="exampleFormControlInput1" class="form-label">Nome completo</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Telefone para contato</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
       </div>
     `,
     methods: {
