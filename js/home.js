@@ -2,17 +2,17 @@
 
 const PaginaHome = {
   template: `
-    <div class= "row" style ="background-color: lightgray;" >
+    <div class= "row" style ="background-color: #0F2E45;" >
         <div class="imagem-fundo"> </div> 
-        <div class="col-4"></div>
-        <div class="col-4">
+        <div class="col-2"></div>
+        <div class="col-8">
             <div>
-              <p class="me-3" style="font-size: 100px;font-family: 'Playfair Display', sans-serif; text-align: center;">Experiência Náutica de Luxo e Conforto</p>
+              <p class="me-3 mt-5" style="font-size: 30px;font-family: 'Raleway', sans-serif; text-align: center;color: white;">Descubra a liberdade das águas, vivencie aventuras inesquecíveis e aproveite cada momento com estilo</p>
               <p>Selecione uma das opções acima para ver mais informações.</p>
               <h4> {{ variavelExemplo }} </h4>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-2">
         </div>
     
     </div>
@@ -42,7 +42,7 @@ const home = Vue.createApp({
     }
   },
   template: `
-      <div style="background-color: #003366;">
+      <div style="background-color: #001F3D;">
         <nav class="navbar navbar-expand-lg navbar-dark" style="justify-content: center;">
             <ul class="nav nav-underline">
               <button @click="trocaPagina('home')" class='btn'>
@@ -63,7 +63,7 @@ const home = Vue.createApp({
         </nav>
         <h4> {{ outraVariavelExemplo }} </h4>
   
-        <section style="background-color: lightgray;">
+        <section style="background-color: #0055A5;">
           <component :is="componentes[paginaAtual]"></component>
         </section>
       </div>    `
