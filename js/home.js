@@ -23,16 +23,16 @@ const PaginaHome = {
   <section class="boat-section container">
     <div class="row align-items-center">
       <!-- Imagem -->
-      <div class="col-md-6">
+      <div class="col-md-2">
+      </div>
+      
+      <div class="col-md-8">
         <div class="boat-card">
-          <img src="https://via.placeholder.com/500x300" alt="Iate Capitão Ferrat">
+          <img src="https://static.wixstatic.com/media/4ba4a0_24eb77d247bf455584362c476cd29954~mv2.jpg/v1/fill/w_490,h_309,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4ba4a0_24eb77d247bf455584362c476cd29954~mv2.jpg" alt="Iate Capitão Ferrat">
           <a href="#" class="btn btn-light position-absolute" style="bottom: 20px; left: 20px;">
             <i class="bi bi-play-circle"></i>
           </a>
         </div>
-      </div>
-      <!-- Informações -->
-      <div class="col-md-6">
         <div class="boat-card position-relative p-4">
           <div class="boat-info">
             <h2>Iate Capitão Ferrat</h2>
@@ -43,7 +43,10 @@ const PaginaHome = {
           <span class="boat-number">1</span>
         </div>
       </div>
+      <div class="col-md-2">
+      </div> 
     </div>
+
   </section>
     
     </div>
