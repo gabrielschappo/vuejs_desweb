@@ -16,7 +16,7 @@ const PaginaContato = {
           </div>
           <div class="mb-3">
             <label for="Textarea1" class="form-label">Descreva seu pedido</label>
-            <textarea class="form-control" id="Textarea1" rows="3" placeholder="Descrição do seu pedido"></textarea>
+            <textarea class="form-control" id="Textarea1" rows="3" placeholder="Descrição do seu pedido (número de pessoas, destino, etc)"></textarea>
           </div>
           <div class="mb-3">
             <button type="submit" class="btn btn-primary mb-3">Enviar pedido</button>
