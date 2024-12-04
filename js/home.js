@@ -2,54 +2,42 @@
 
 const PaginaHome = {
   template: `
-    <div class= "row" style ="background-color: #0F2E45;" >
-        <div class="imagem-fundo"> </div> 
-        <div class="col-2"></div>
-        <div class="col-8">
-            <div>
-              <p class="me-3 mt-5" style="font-size: 30px;font-family: 'Raleway', sans-serif; text-align: center;color: white;">Descubra a liberdade das águas, vivencie aventuras inesquecíveis e aproveite cada momento com estilo</p>
-              <p>Selecione uma das opções acima para ver mais informações.</p>
-              <h4> {{ variavelExemplo }} </h4>
-            </div>
-        </div>
-        <div class="col-2">
-        </div>
-        <section class="header-section">
-    <h1>Desfrute das belezas naturais do litoral sul de Pernambuco <br>
-      fazendo o melhor passeio de lancha exclusivo com sua família, amigos ou grupo corporativo.</h1>
-  </section>
+    <div class="row" style="background-color: #0F2E45;">
+    <div class="video-fundo">
+        <video autoplay loop muted playsinline>
+            <source src="Luxury Yacht - Riva Rivamare - Ferretti Group.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+        </video>
+        <div class="overlay"></div>
+        <div class="conteudo"></div>
+    </div>
 
-  <!-- Card com informações da lancha -->
-  <section class="boat-section container">
-    <div class="row align-items-center">
-      <!-- Imagem -->
-      <div class="col-md-2">
-      </div>
-      
-      <div class="col-md-8">
-        <div class="boat-card">
-          <img src="https://static.wixstatic.com/media/4ba4a0_24eb77d247bf455584362c476cd29954~mv2.jpg/v1/fill/w_490,h_309,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4ba4a0_24eb77d247bf455584362c476cd29954~mv2.jpg" alt="Iate Capitão Ferrat">
-          <a href="#" class="btn btn-light position-absolute" style="bottom: 20px; left: 20px;">
-            <i class="bi bi-play-circle"></i>
-          </a>
-        </div>
-        <div class="boat-card position-relative p-4">
-          <div class="boat-info">
+    <div class="col-12 text-center my-4">
+        <p style="font-size: 40px; font-family: 'Raleway', sans-serif; color: white;">
+            Descubra a liberdade das águas, vivencie aventuras inesquecíveis e aproveite cada momento com estilo
+        </p>
+        <p style="color: white;font-size: 17px;">Veja as opções abaixo para mais informações.</p>
+    </div>
+</div>
+
+<section class="boat-section container">
+    <!-- Container com imagem e texto lado a lado -->
+    <div class="boat-card">
+        <!-- Imagem -->
+        <img src="https://static.wixstatic.com/media/4ba4a0_24eb77d247bf455584362c476cd29954~mv2.jpg/v1/fill/w_490,h_309,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4ba4a0_24eb77d247bf455584362c476cd29954~mv2.jpg" alt="Iate Capitão Ferrat">
+    </div>
+    <div class="boat-card">
+        <!-- Informações -->
+        <div class="boat-info">
             <h2>Iate Capitão Ferrat</h2>
             <p><strong>Marca:</strong> Azimut 56 Full</p>
             <p><strong>Tamanho:</strong> 56 pés</p>
             <p><strong>Capacidade:</strong> 16 pessoas</p>
-          </div>
-          <span class="boat-number">1</span>
         </div>
-      </div>
-      <div class="col-md-2">
-      </div> 
+        <span class="boat-number">1</span>
     </div>
+</section>
 
-  </section>
-    
-    </div>
   `,
   data() {
     return {

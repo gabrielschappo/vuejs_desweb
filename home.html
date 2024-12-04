@@ -27,14 +27,43 @@
             
         }
     
-        .imagem-fundo {
-            background-image: url('https://oestemarine.com.br/wp-content/uploads/2023/12/388GT.jpg'); 
-            background-size: cover; 
-            background-position: center; 
-            width: 100%; 
-            height: 400px;
+        .video-fundo {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
         }
-        .header-section {
+
+        .video-fundo video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: auto;
+        z-index: 1;
+        object-fit: cover;
+        }
+
+        .video-fundo .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); 
+        z-index: 2;
+        }
+
+        .video-fundo .conteudo {
+        position: relative;
+        z-index: 3;
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+    
+    eader-section {
       text-align: center;
       padding: 50px 20px;
       background-color: #202F46; 
