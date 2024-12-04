@@ -41,8 +41,11 @@ const PaginaHome = {
                 </div>
                 <span class="boat-number">1</span>
             </div>
-        </section>
-    </div> 
+          </section>
+            <div class="boat-description p-4" style="text-align: center; font-weight: bold; margin-top: 20px;">
+              <p style="font-size: 18px;color: white;">O <span style="color: #0198B6;">Capitão Ferrat</span> é um iate Italiano de luxo, com duas belíssimas Suites, uma generosa sala climatizada, uma sala ambiente externa e duas áreas de lazer incríveis, uma no primeiro andar e uma na proa da embarcação, e mais uma excelente cozinha toda equipada. Tem dois motores poderosos e grande estabilidade na água, tudo para proporcionar o máximo conforto e um excelente dia para todos a bordo!</p>
+            </div>
+          </div> 
 
     <div class="col-2"></div> 
     </div>
@@ -68,7 +71,10 @@ const PaginaHome = {
                   <span class="boat-number">2</span>
               </div>
           </section>
+           <div class="boat-description p-4 " style="text-align: center; font-weight: bold; margin-top: 20px;">
+        <p style="font-size: 18px;color: white;">A <span style="color: #0198B6;">Gummy</span> é uma belíssima embarcação de 42 pés, composta de uma suite toda equipada, cozinha, área comum interna e uma excelente área de lazer externa mais dois poderosos motores que proporcionam velocidade, estabilidade e segurança.</p>
       </div> 
+          </div> 
 
       <div class="col-2"></div> 
   </div>
@@ -95,6 +101,9 @@ const PaginaHome = {
                 <span class="boat-number">3</span>
             </div>
         </section>
+        <div class="boat-description p-4 " style="text-align: center; font-weight: bold; margin-top: 20px;">
+        <p style="font-size: 18px;color: white;">A <span style="color: #0198B6;">Nomand</span> ​é uma excelente opção para quem está em um grupo menor ou quer um passeio mais privado, a embarcação possui ambiente de estar no covés, área de lazer na proa e uma suite com banheiro, excelente opcão custo beneficio, para tornar o seu dia incrível.</p>
+      </div>
     </div> 
 
     <div class="col-2"></div> 
