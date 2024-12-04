@@ -131,6 +131,9 @@ const home = Vue.createApp({
       <div style="background-color: #001F3D;">
         <nav class="navbar navbar-expand-lg navbar-dark" style="justify-content: center;">
             <ul class="nav nav-underline">
+              <li style="margin-inline: 20px ;" class="nav-item">
+                  <img src="fotos_iate/LOGO-removebg-preview.png" style="max-width: 80px">
+              </li>
               <button @click="trocaPagina('home')" class='btn'>
                 <li style="margin-inline: 20px ;" class="nav-item">
                     <a style="color:white; font-size: 25px;" class="nav-link">Home</a>
