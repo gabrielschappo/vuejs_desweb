@@ -20,23 +20,34 @@ const PaginaHome = {
     </div>
 </div>
 
-<section class="boat-section container">
-    <!-- Container com imagem e texto lado a lado -->
-    <div class="boat-card">
-        <!-- Imagem -->
-        <img src="https://static.wixstatic.com/media/4ba4a0_24eb77d247bf455584362c476cd29954~mv2.jpg/v1/fill/w_490,h_309,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4ba4a0_24eb77d247bf455584362c476cd29954~mv2.jpg" alt="Iate Capitão Ferrat">
-    </div>
-    <div class="boat-card">
-        <!-- Informações -->
-        <div class="boat-info">
-            <h2>Iate Capitão Ferrat</h2>
-            <p><strong>Marca:</strong> Azimut 56 Full</p>
-            <p><strong>Tamanho:</strong> 56 pés</p>
-            <p><strong>Capacidade:</strong> 16 pessoas</p>
-        </div>
-        <span class="boat-number">1</span>
-    </div>
-</section>
+  <div class="row">
+    <div class="col-2"></div> 
+
+    <div class="col-8"> 
+        <section class="boat-section">
+            
+            <div class="boat-card">
+                <img src="https://static.wixstatic.com/media/4ba4a0_24eb77d247bf455584362c476cd29954~mv2.jpg/v1/fill/w_490,h_309,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/4ba4a0_24eb77d247bf455584362c476cd29954~mv2.jpg" alt="Iate Capitão Ferrat">
+            </div>
+
+            
+            <div class="boat-card">
+                <div class="boat-info">
+                    <h2 style="font-size: 35px;">Iate Capitão Ferrat</h2>
+                    <p style="font-size: 20px;"><strong>Marca:</strong> Azimut 56 Full</p>
+                    <p style="font-size: 20px;"><strong>Tamanho:</strong> 56 pés</p>
+                    <p style="font-size: 20px;"><strong>Capacidade:</strong> 16 pessoas</p>
+                </div>
+                <span class="boat-number">1</span>
+            </div>
+        </section>
+    </div> 
+
+    <div class="col-2"></div> 
+</div>
+ 
+  
+
 
   `,
   data() {
