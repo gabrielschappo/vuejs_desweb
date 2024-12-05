@@ -109,18 +109,7 @@ const PaginaHome = {
     <div class="col-2"></div> 
 </div>
   
-  <div class="row">
-      <div class="col-3"></div>
-      <div class="col-6 text-center">
-          <img src="fotos_iate/LOGO-removebg-preview.png" alt="Logo" class="img-small">
-      </div>
-      <div class="col-3"></div>
-  </div>
-  <div class="row text-center mt-5">
-    <div class="col-12">
-        <h2 class="reserve-text">Reserve Já!</h2>
-        <a href="PaginaContato" class="btn btn-blue mt-5">Agendar Aqui </a>
-    </div>
+  
 </div>
 
 
