@@ -173,10 +173,11 @@ const home = Vue.createApp({
           <component :is="componentes[paginaAtual]"></component>
         </section>
       </div>
-      <div class="text-center mt-5" style="color: white; background-color: #001F3D">
-          <img src="fotos_iate/LOGO-removebg-preview.png" alt="Logo" class="img-small">
-          <p>2024 Oceano Livre | A melhor experiência em São Francisco do Sul</p>
-      <div>    
+      <div class="text-center mt-5 p-3" style="color: white; background-color: #001F3D; width: 100%;">
+        <img src="fotos_iate/LOGO-removebg-preview.png" alt="Logo" class="img-small" style="max-width: 100%; height: auto;">
+        <p>2024 Oceano Livre | A melhor experiência em São Francisco do Sul</p>
+      </div>
+    
       `
 });
 
