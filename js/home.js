@@ -109,6 +109,19 @@ const PaginaHome = {
     <div class="col-2"></div> 
 </div>
   
+  <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6 text-center">
+          <img src="fotos_iate/LOGO-removebg-preview.png" alt="Logo" class="img-small">
+      </div>
+      <div class="col-3"></div>
+  </div>
+  <div class="row text-center mt-5">
+    <div class="col-12">
+        <h2 class="reserve-text">Reserve Já!</h2>
+        <a href="PaginaContato" class="btn btn-blue mt-5">Agendar Aqui </a>
+    </div>
+</div>
 
 
   `,
@@ -138,7 +151,10 @@ const home = Vue.createApp({
   },
   template: `
       <div style="background-color: #001F3D;">
-        <nav class="navbar navbar-expand-lg navbar-dark" style="justify-content: center;">
+        <div class="row">
+          <div class="col-3"></div> 
+          <div class="col-5 ms-4">
+            <nav class="navbar navbar-expand-lg navbar-dark" style="justify-content: center;">
             <ul class="nav nav-underline">
               <li style="margin-inline: 20px ;" class="nav-item">
                   <img src="fotos_iate/LOGO-removebg-preview.png" style="max-width: 80px">
@@ -157,8 +173,15 @@ const home = Vue.createApp({
                 <li style="margin-inline: 20px ;" class="nav-item">
                     <a style="color:white; font-size: 25px;" class="nav-link">Contato</a>
                 </li>
-            </ul>
+              </button>
+              </ul>
         </nav>
+          </div>
+          <div class="col-4"></div>
+      </div>
+        
+      
+      
 
   
         <section style="background-color: #0F2E45;">
