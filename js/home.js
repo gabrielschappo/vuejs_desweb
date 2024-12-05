@@ -109,21 +109,6 @@ const PaginaHome = {
     <div class="col-2"></div> 
 </div>
   
-  <div class="row">
-      <div class="col-3"></div>
-      <div class="col-6 text-center">
-          <img src="fotos_iate/LOGO-removebg-preview.png" alt="Logo" class="img-small">
-      </div>
-      <div class="col-3"></div>
-  </div>
-  <div class="row text-center mt-5">
-    <div class="col-12">
-        <h2 class="reserve-text">Reserve Já!</h2>
-        <a href="PaginaContato" class="btn btn-blue mt-5">Agendar Aqui </a>
-    </div>
-</div>
-
-
   `,
   data() {
     return {
@@ -187,7 +172,12 @@ const home = Vue.createApp({
         <section style="background-color: #0F2E45;">
           <component :is="componentes[paginaAtual]"></component>
         </section>
-      </div>    `
+      </div>
+      <div class="text-center mt-5" style="color: white; background-color: #001F3D">
+          <img src="fotos_iate/LOGO-removebg-preview.png" alt="Logo" class="img-small">
+          <p>2024 Oceano Livre | A melhor experiência em São Francisco do Sul</p>
+      <div>    
+      `
 });
 
 // Monta a aplicação Vue no elemento com id "app"
